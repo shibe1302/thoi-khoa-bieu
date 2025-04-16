@@ -50,6 +50,9 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
+    table-layout: fixed;
+    /* This is crucial - forces equal column widths */
+    width: 100%;
 }
 
 th,
@@ -57,6 +60,7 @@ td {
     border: 1px solid #333333;
     padding: 12px;
     text-align: center;
+    word-wrap: break-word;
 }
 
 th {
@@ -78,30 +82,36 @@ th {
     padding: 10px;
     border-radius: 4px;
     cursor: pointer;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-size: 0.9em;
+    /* Optional: slightly reduce font size if needed */
+    box-shadow: 2px 3px 0px 0px rgba(255, 255, 255, 1);
 }
 
 .subject-math {
     background-color: #bb86fc;
-    color: #121212;
+    color: #ffffff;
 }
 
 .subject-biology {
-    background-color: #3700b3;
+    background-color: #018786;
     color: #ffffff;
 }
 
 .subject-physics {
-    background-color: #03dac6;
-    color: #121212;
+    background-color: #bb86fc;
+    color: #ffffff;
 }
 
 .subject-chemistry {
-    background-color: #cf6679;
-    color: #121212;
+    background-color: #018786;
+    color: #ffffff;
 }
 
 .subject-history {
-    background-color: #6200ea;
+    background-color: #bb86fc;
     color: #ffffff;
 }
 
