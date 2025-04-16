@@ -2,21 +2,28 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.concac {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #1e1e1e;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #ffffff;
 }
 
 .controls {
@@ -25,8 +32,8 @@ h1 {
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #bb86fc;
+    color: #121212;
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
@@ -35,7 +42,8 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #3700b3;
+    color: #ffffff;
 }
 
 table {
@@ -46,23 +54,23 @@ table {
 
 th,
 td {
-    border: 1px solid #ddd;
+    border: 1px solid #333333;
     padding: 12px;
     text-align: center;
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #333333;
     font-weight: bold;
 }
 
 .period-cell {
-    background-color: #f2f2f2;
+    background-color: #333333;
     font-weight: bold;
 }
 
 .break-row {
-    background-color: #a0c4ff;
+    background-color: #bb86fc;
     height: 25px;
 }
 
@@ -73,27 +81,33 @@ th {
 }
 
 .subject-math {
-    background-color: #ffff00;
+    background-color: #bb86fc;
+    color: #121212;
 }
 
 .subject-biology {
-    background-color: #ffcc99;
+    background-color: #3700b3;
+    color: #ffffff;
 }
 
 .subject-physics {
-    background-color: #99ff99;
+    background-color: #03dac6;
+    color: #121212;
 }
 
 .subject-chemistry {
-    background-color: #ff99cc;
+    background-color: #cf6679;
+    color: #121212;
 }
 
 .subject-history {
-    background-color: #cc99ff;
+    background-color: #6200ea;
+    color: #ffffff;
 }
 
 .subject-english {
-    background-color: #99ccff;
+    background-color: #018786;
+    color: #ffffff;
 }
 
 .modal {
@@ -105,23 +119,21 @@ th {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.3);
-    /* nền mờ */
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 1000;
 }
 
 .modal-content {
-    background-color: white;
+    background-color: #1e1e1e;
     padding: 20px;
     border-radius: 8px;
     width: 60%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     margin: auto;
     max-height: 90vh;
     overflow-y: auto;
+    color: #ffffff;
 }
-
-
 
 .close {
     color: #aaa;
@@ -132,7 +144,7 @@ th {
 }
 
 .close:hover {
-    color: black;
+    color: #ffffff;
 }
 
 .form-group {
@@ -143,6 +155,7 @@ label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    color: #bb86fc;
 }
 
 input,
@@ -150,8 +163,10 @@ select {
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
-    border: 1px solid #ddd;
+    border: 1px solid #333333;
     border-radius: 4px;
+    background-color: #333333;
+    color: #ffffff;
 }
 
 .buttons-container {
@@ -161,25 +176,27 @@ select {
 }
 
 .delete-btn {
-    background-color: #f44336;
+    background-color: #cf6679;
 }
 
 .delete-btn:hover {
-    background-color: #d32f2f;
+    background-color: #a00037;
 }
 
 .edit-btn {
-    background-color: #2196F3;
+    background-color: #03dac6;
+    color: #121212;
 }
 
 .edit-btn:hover {
-    background-color: #0b7dda;
+    background-color: #018786;
+    color: #ffffff;
 }
 
 .info-row {
     margin-bottom: 10px;
     padding: 5px;
-    background-color: #f9f9f9;
+    background-color: #333333;
     border-radius: 4px;
 }
 
@@ -187,4 +204,5 @@ select {
     font-weight: bold;
     display: inline-block;
     width: 120px;
+    color: #bb86fc;
 }
